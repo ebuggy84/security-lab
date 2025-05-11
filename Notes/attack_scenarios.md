@@ -41,3 +41,4 @@ hydra -l admin -P ~/quicklist.txt ssh://192.168.1.105
 **Command:**
 ```bash
 nmap -sV 192.168.1.107
+**Explanation:** This scan revealed that Metasploitable 2 exposes many vulnerable services. It confirms open services like FTP, SSH, MySQL, and Tomcat-all of which can be exploited in future tests.
