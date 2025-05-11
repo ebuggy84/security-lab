@@ -34,3 +34,10 @@ nmap -sV -T4 -p- 192.168.1.105
 hydra -l admin -P ~/quicklist.txt ssh://192.168.1.105
 **Explanation:** This demonstrates how Hydra can identify weak SSH credentials using a small custom wordlist.
 ```
+### Metasploitable 2 Scan - Port Enumeration
+
+**Date:** 2025-05-11  
+**Tool Used:** Nmap  
+**Command:**
+```bash
+nmap -sV 192.168.1.107
