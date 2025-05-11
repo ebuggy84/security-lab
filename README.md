@@ -19,3 +19,7 @@ This is my personal cybersecurity homelab to gain hands-on experience with:
 ## Notes
 - Hosted on Proxmox
 - Token-based GitHub commits from Kali Linux
+## Featured Files
+
+- [`scripts/quick-nmap-scan.sh`](scripts/quick-nmap-scan.sh): Simple Nmap script to scan your subnet and log results.
+- [`diagrams/lab-topology.txt`](diagrams/lab-topology.txt): ASCII diagram of the lab setup.
